@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/agregarsen"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/pastofondo"
+    android:padding="16sp"
+    tools:context=".AgregarsenActivity">
+
+    <View
+        android:id="@+id/divider_view"
+        android:layout_width="1dp"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        android:visibility="invisible" />
+
+    <TextView
+        android:id="@+id/tituloSensores"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8sp"
+        android:background="#5CFFFFFF"
+        android:padding="16sp"
+        android:text="@string/agregar_sensor"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/nombreSensor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tituloSensores"
+        android:layout_margin="8sp"
+        android:autofillHints=""
+        android:background="#D3689054"
+        android:hint="@string/nombre_del_sensor"
+        android:inputType="text"
+        android:padding="16sp"
+        android:textColor="#000000" />
+
+    <EditText
+        android:id="@+id/descripcionSensor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/nombreSensor"
+        android:layout_margin="8sp"
+        android:autofillHints=""
+        android:background="#D3689054"
+        android:hint="@string/descripcion"
+        android:inputType="text"
+        android:padding="16sp"
+        android:textColor="#000000" />
+
+    <EditText
+        android:id="@+id/idealSensor"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/descripcionSensor"
+        android:layout_alignParentStart="true"
+        android:layout_margin="8sp"
+        android:layout_toStartOf="@+id/divider_view"
+        android:autofillHints=""
+        android:background="#D3689054"
+        android:hint="@string/valor_ideal"
+        android:inputType="numberDecimal"
+        android:padding="16sp"
+        android:textColor="#000000" />
+
+    <Spinner
+        android:id="@+id/tipoSensorSpinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/descripcionSensor"
+        android:layout_margin="8sp"
+        android:layout_toEndOf="@id/divider_view"
+        android:background="#D3689054"
+        android:spinnerMode="dropdown"
+        android:padding="16sp" />
+    <Spinner
+        android:id="@+id/ubicacionSensorSpinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/idealSensor"
+        android:layout_margin="8sp"
+        android:background="#D3689054"
+        android:spinnerMode="dropdown"
+        android:padding="16sp" />
+
+    <Button
+        android:id="@+id/agregarsen_Button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ubicacionSensorSpinner"
+        android:layout_margin="8sp"
+        android:backgroundTint="#75AD5F"
+        android:text="@string/agregar_sensor"
+        android:textColor="#FFFFFF" />
+    <Button
+        android:id="@+id/modificarSen_Button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/agregarsen_Button"
+        android:layout_margin="8sp"
+        android:backgroundTint="#75AD5F"
+        android:text="@string/modificar_sensor"
+        android:textColor="#FFFFFF" />
+    <Button
+        android:id="@+id/eliminarSen_Button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/modificarSen_Button"
+        android:layout_margin="8sp"
+        android:backgroundTint="#75AD5F"
+        android:text="@string/eliminar_sensor"
+        android:textColor="#FFFFFF" />
+    <Button
+        android:id="@+id/buscarSen_Button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/eliminarSen_Button"
+        android:layout_margin="8sp"
+        android:backgroundTint="#75AD5F"
+        android:text="@string/buscar_sensor"
+        android:textColor="#FFFFFF" />
+</RelativeLayout>

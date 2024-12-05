@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/tiposid"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/tipofondo"
+    android:padding="16sp"
+    tools:context=".TiposActivity">
+
+    <TextView
+        android:id="@+id/tituloTipos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8sp"
+        android:background="#A3FFFFFF"
+        android:padding="16sp"
+        android:text="@string/tipos_de_sensores"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/Añadirtipo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tituloTipos"
+        android:layout_margin="8sp"
+        android:backgroundTint="#75AD5F"
+        android:text="@string/agregar"
+        android:textColor="#FFFFFF" />
+
+    <ListView
+        android:id="@+id/Lista_tipos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Añadirtipo"
+        android:layout_margin="8sp"
+        android:background="#D3689054"
+        android:entries="@array/tipo_sensor" />
+
+
+</RelativeLayout>

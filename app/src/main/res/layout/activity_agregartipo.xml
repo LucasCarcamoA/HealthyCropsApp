@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/tipofondo"
+    android:padding="16sp"
+    tools:context=".AgregartipoActivity">
+
+    <TextView
+        android:id="@+id/tituloTipos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8sp"
+        android:background="#A3FFFFFF"
+        android:padding="16sp"
+        android:text="@string/tipo_de_sensorTitulo"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/nombreTipoid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tituloTipos"
+        android:layout_margin="8sp"
+        android:background="#D3689054"
+        android:hint="@string/tipohint"
+        android:inputType="text"
+        android:padding="16sp" />
+
+    <Button
+        android:id="@+id/ingresarSensorButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/nombreTipoid"
+        android:layout_margin="8sp"
+        android:backgroundTint="#75AD5F"
+        android:padding="16sp"
+        android:text="@string/agregar"
+        android:textColor="#FFFFFF" />
+
+
+</RelativeLayout>

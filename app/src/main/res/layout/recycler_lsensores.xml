@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#BA8BC34A"
+    android:orientation="vertical"
+    android:padding="8dp"
+    android:layout_marginBottom="2dp">
+
+
+    <TextView
+        android:id="@+id/textViewRecyclerNombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/nombre_del_sensor"
+        android:textAlignment="center"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tipoText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tipoListView"
+            android:textSize="15sp"
+            android:textStyle="normal"
+            android:layout_marginEnd="5dp"/>
+
+        <TextView
+            android:id="@+id/textViewRecyclerTipo"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="@string/Tipo"
+            android:textSize="15sp"
+            android:textStyle="italic" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/valorIdealText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/valorListView"
+            android:textSize="15sp"
+            android:textStyle="normal"
+            android:layout_marginEnd="5dp"/>
+
+        <TextView
+            android:id="@+id/textViewRecyclerIdeal"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="@string/valor_ideal"
+            android:textSize="15sp"
+            android:textStyle="italic" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/ubicacionText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/ubicacionListView"
+            android:textSize="15sp"
+            android:textStyle="normal"
+            android:layout_marginEnd="5dp"/>
+
+        <TextView
+            android:id="@+id/textViewRecyclerUbicacion"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="@string/ubicacion"
+            android:textSize="15sp"
+            android:textStyle="italic" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/descripcionSensorText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/descripcionListView"
+            android:textSize="15sp"
+            android:textStyle="normal"
+            android:layout_marginEnd="5dp"/>
+
+        <TextView
+            android:id="@+id/textViewRecyclerDescripcion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/descripcion"
+            android:textSize="15sp"
+            android:textStyle="italic" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+        <Button
+            android:id="@+id/modificarSenespecifico"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Modificar"
+            android:layout_marginHorizontal="10dp"/>
+
+        <Button
+            android:id="@+id/eliminarSenespecifico"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Eliminar"
+            android:layout_marginHorizontal="10dp"/>
+    </LinearLayout>
+
+
+
+</LinearLayout>

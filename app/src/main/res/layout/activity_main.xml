@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/Sensores"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/_a3a5da0_13dc_4755_9796_9ef225b60cbf"
+    android:orientation="vertical"
+    android:padding="8sp"
+    tools:context=".MainActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_weight="1"
+        android:gravity="center|bottom"
+        android:orientation="vertical"
+        android:padding="20sp">
+
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="300sp"
+            android:layout_height="250sp"
+            android:layout_marginBottom="150sp"
+            android:background="@drawable/logo"
+            android:scrollbarTrackHorizontal="?attr/selectableItemBackgroundBorderless"
+            tools:ignore="ContentDescription" />
+
+        <Button
+            android:id="@+id/btn_sensor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8sp"
+            android:backgroundTint="#75AD5F"
+            android:text="@string/op_sensor"
+            android:textColor="#FFFFFF" />
+
+        <Button
+            android:id="@+id/btn_tipo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8sp"
+            android:backgroundTint="#75AD5F"
+            android:text="@string/op_tipo"
+            android:textColor="#FFFFFF" />
+
+        <Button
+            android:id="@+id/btn_ubicacion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8sp"
+            android:backgroundTint="#75AD5F"
+            android:text="@string/op_ubicacion"
+            android:textColor="#FFFFFF" />
+
+    </LinearLayout>
+
+</LinearLayout>

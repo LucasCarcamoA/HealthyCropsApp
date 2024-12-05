@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/Sensores"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/pastofondo"
+    android:backgroundTintMode="add"
+    android:orientation="vertical"
+    android:padding="16sp"
+    tools:context=".SensoresActivity">
+
+    <androidx.appcompat.widget.SearchView
+        android:id="@+id/vista_buscador"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8sp"
+        android:background="#D3689054"
+        android:iconifiedByDefault="false"
+        android:queryHint="Buscar sensores..." />
+
+    <Button
+        android:id="@+id/agregar_sensor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8sp"
+        android:backgroundTint="#75AD5F"
+        android:text="@string/agregar_sensor"
+        android:textAlignment="center"
+        android:textColor="#E7E7E7" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/list_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="8sp"
+        android:background="#D3689054"
+        tools:listitem="@layout/recycler_lsensores" />
+
+</LinearLayout>

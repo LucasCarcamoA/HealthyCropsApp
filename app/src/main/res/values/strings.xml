@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">Healthy Crops</string>
+    <string name="Bienvenida">Bienvenido a Healthy Crops!!</string>
+    <string name="op_sensor">Sensores</string>
+    <string name="op_tipo">Tipos de Sensor</string>
+    <string name="op_ubicacion">Ubicaciones</string>
+    <string name="Resultado">Resultados de la busqueda</string>
+    <string name="agregar_sensor">Agregar Sensor</string>
+    <string name="agregar_ubicacion">Agregar Ubicación</string>
+    <string name="ubicaciones">Ubicaciones</string>
+    <string name="nombre_ubi">Nombre</string>
+    <string name="descripcion_ubi">Descripcion de la Ubicación</string>
+    <string name="agregar">Agregar</string>
+    <string name="nombre_del_sensor">Nombre del Sensor</string>
+    <string name="descripcion">Descripción</string>
+    <string name="valor_ideal">Valor ideal</string>
+    <string name="tipos_de_sensores">Tipos de Sensores</string>
+    <string name="tipo_de_sensorTitulo">Tipo de Sensor</string>
+    <string name="tipohint">Tipo</string>
+    <string name="Tipo">Tipo Sensor</string>
+    <string name="nombre">Nombre</string>
+    <string name="ubicacion">Ubicación</string>
+    <string name="descripcionListView">Descripcion:</string>
+    <string name="valorListView">Valor ideal: </string>
+    <string name="tipoListView">Tipo Sensor: </string>
+    <string name="ubicacionListView">Ubicación: </string>
+    <string name="nombre_ubicacion">Nombre Ubicacion</string>
+    <string name="modificar_sensor">Modificar Sensor</string>
+    <string name="eliminar_sensor">Eliminar Sensor</string>
+    <string name="buscar_sensor">Buscar Sensor</string>
+</resources>

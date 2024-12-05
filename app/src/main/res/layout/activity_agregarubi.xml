@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/agregarubi"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ubicacionfondo"
+    android:padding="16sp"
+    tools:context=".AgregarubiActivity">
+
+    <TextView
+        android:id="@+id/tituloAgregarUbiTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8sp"
+        android:background="#A3FFFFFF"
+        android:padding="16sp"
+        android:text="@string/agregar_ubicacion"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/nombreUbiEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tituloAgregarUbiTextView"
+        android:layout_margin="8sp"
+        android:background="#D3689054"
+        android:hint="@string/nombre_ubi"
+        android:inputType="text"
+        android:padding="16sp" />
+
+    <EditText
+        android:id="@+id/descripcionUbiEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/nombreUbiEditText"
+        android:layout_margin="8sp"
+        android:background="#D3689054"
+        android:hint="@string/descripcion_ubi"
+        android:inputType="text"
+        android:padding="16sp" />
+
+    <Button
+        android:id="@+id/agregarUbicacionButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/descripcionUbiEditText"
+        android:layout_margin="8sp"
+        android:backgroundTint="#75AD5F"
+        android:padding="16sp"
+        android:text="@string/agregar"
+        android:textColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/modificarUbicacionButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/agregarUbicacionButton"
+        android:layout_margin="8sp"
+        android:backgroundTint="#75AD5F"
+        android:text="@string/modificar_sensor"
+        android:textColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/eliminarUbicacionButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/modificarUbicacionButton"
+        android:layout_margin="8sp"
+        android:backgroundTint="#75AD5F"
+        android:text="@string/eliminar_sensor"
+        android:textColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/buscarUbicacionButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/eliminarUbicacionButton"
+        android:layout_margin="8sp"
+        android:backgroundTint="#75AD5F"
+        android:text="@string/buscar_sensor"
+        android:textColor="#FFFFFF" />
+
+</RelativeLayout>
